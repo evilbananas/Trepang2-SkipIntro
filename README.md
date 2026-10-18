@@ -24,21 +24,6 @@ Trepang2\CPPFPS\Binaries\Win64\
 
 > If already using UE4SS, extract only the `Mods\SkipPressAnyKey` folder.
 
-### 2. Disable the intro logo videos
-The logo videos play before the mod loads, so they're turned off with a config setting.
-
-1. Press **Win + R**, paste the following and press **Enter**:
-   ```
-   %LOCALAPPDATA%\CPPFPS\Saved\Config\WindowsNoEditor
-   ```
-   > If the folder doesn't exist, launch the game once and close it.
-2. Open `Game.ini` in a text editor.
-3. Add these lines at the bottom and save:
-   ```ini
-   [/Script/MoviePlayer.MoviePlayerSettings]
-   !StartupMovies=ClearArray
-   ```
-
 ## Uninstall
 - **Remove the mod:** delete the `CPPFPS\Binaries\Win64\Mods\SkipPressAnyKey` folder.
 - **Remove UE4SS:** delete `dwmapi.dll`, `UE4SS.dll`, `UE4SS-settings.ini`, `UE4SS_LICENSE.txt` and the `Mods` folder from `CPPFPS\Binaries\Win64\`. Also delete `UE4SS.log` and any `.cache` files if they're there.
