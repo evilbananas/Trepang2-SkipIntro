@@ -9,7 +9,6 @@ UE4SS v3.0.1 is included in the download, so you don't need to install it separa
 
 ## Installation
 
-### 1. Install the mod
 Download the latest from [Releases](https://github.com/<your-github-username>/trepang2-skip-intro/releases) and extract it into the top-level `Trepang2` game folder, the one containing `CPPFPS.exe`.
 
 You should end up with:
@@ -27,7 +26,6 @@ Trepang2\CPPFPS\Binaries\Win64\
 ## Uninstall
 - **Remove the mod:** delete the `CPPFPS\Binaries\Win64\Mods\SkipPressAnyKey` folder.
 - **Remove UE4SS:** delete `dwmapi.dll`, `UE4SS.dll`, `UE4SS-settings.ini`, `UE4SS_LICENSE.txt` and the `Mods` folder from `CPPFPS\Binaries\Win64\`. Also delete `UE4SS.log` and any `.cache` files if they're there.
-- **Restore the logo videos:** remove the two lines you added to `Game.ini`.
 
 ## Also available on
 - [Nexus Mods](<nexus-link>)
