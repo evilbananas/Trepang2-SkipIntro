@@ -25,17 +25,24 @@ Trepang2\CPPFPS\Binaries\Win64\
 > If already using UE4SS, extract only the `Mods\SkipPressAnyKey` folder.
 
 ### 2. Disable the intro logo videos
-The logo videos can't be skipped by the mod, so rename them instead. Go to `Trepang2\CPPFPS\Content\Movies\` and add `.bak` to the end of these three files:
+The logo videos play before the mod loads, so they're turned off with a config setting.
 
-| Original name | Rename to |
-|---|---|
-| `T17_Logo.mp4` | `T17_Logo.mp4.bak` |
-| `TrepangStudios_Logo.mp4` | `TrepangStudios_Logo.mp4.bak` |
-| `TrepangGameLogo.mp4` | `TrepangGameLogo.mp4.bak` |
+1. Press **Win + R**, paste the following and press **Enter**:
+   ```
+   %LOCALAPPDATA%\CPPFPS\Saved\Config\WindowsNoEditor
+   ```
+   > If the folder doesn't exist, launch the game once and close it.
+2. Open `Game.ini` in a text editor.
+3. Add these lines at the bottom and save:
+   ```ini
+   [/Script/MoviePlayer.MoviePlayerSettings]
+   !StartupMovies=ClearArray
+   ```
 
-## Uninstalling
+## Uninstall
 - **Remove the mod:** delete the `CPPFPS\Binaries\Win64\Mods\SkipPressAnyKey` folder.
 - **Remove UE4SS:** delete `dwmapi.dll`, `UE4SS.dll`, `UE4SS-settings.ini`, `UE4SS_LICENSE.txt` and the `Mods` folder from `CPPFPS\Binaries\Win64\`. Also delete `UE4SS.log` and any `.cache` files if they're there.
+- **Restore the logo videos:** remove the two lines you added to `Game.ini`.
 
 ## Also available on
 - [Nexus Mods](<nexus-link>)
