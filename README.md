@@ -4,31 +4,27 @@ A [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) mod for **Trepang2** that skips 
 
 ## Requirements
 - Trepang2
-- [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS/releases) v3.0.1 or newer
+
+UE4SS v3.0.1 is included in the download, so you don't need to install it separately.
 
 ## Installation
 
-### 1. Install UE4SS
-Download the UE4SS release zip (`UE4SS_v3.x.x.zip`, not the `zDEV` one). Only these three files are needed:
+### 1. Install the mod
+Download the latest from [Releases](https://github.com/<your-github-username>/trepang2-skip-intro/releases) and extract it into the top-level `Trepang2` game folder, the one containing `CPPFPS.exe`.
 
-| File | Purpose |
-|---|---|
-| `dwmapi.dll` | Loads UE4SS when the game starts |
-| `UE4SS.dll` | UE4SS itself |
-| `UE4SS-settings.ini` | UE4SS settings |
-
-Extract just those three files into:
+You should end up with:
 ```
 Trepang2\CPPFPS\Binaries\Win64\
+├── Mods\SkipPressAnyKey\
+├── dwmapi.dll
+├── UE4SS.dll
+├── UE4SS-settings.ini
+└── UE4SS_LICENSE.txt
 ```
 
-### 2. Install the mod
-Download the latest zip from [Releases](https://github.com/<your-github-username>/trepang2-skip-intro/releases) and extract it into the `Trepang2` folder. You should end up with:
-```
-Trepang2\CPPFPS\Binaries\Win64\Mods\SkipPressAnyKey\
-```
+> If already using UE4SS, extract only the `Mods\SkipPressAnyKey` folder.
 
-### 3. Disable the intro logo videos
+### 2. Disable the intro logo videos
 The logo videos can't be skipped by the mod, so rename them instead. Go to `Trepang2\CPPFPS\Content\Movies\` and add `.bak` to the end of these three files:
 
 | Original name | Rename to |
@@ -37,15 +33,15 @@ The logo videos can't be skipped by the mod, so rename them instead. Go to `Trep
 | `TrepangStudios_Logo.mp4` | `TrepangStudios_Logo.mp4.bak` |
 | `TrepangGameLogo.mp4` | `TrepangGameLogo.mp4.bak` |
 
-## Disabling / Uninstalling
+## Uninstalling
 - **Remove the mod:** delete the `CPPFPS\Binaries\Win64\Mods\SkipPressAnyKey` folder.
-- **Remove UE4SS:** delete `dwmapi.dll`, `UE4SS.dll`, `UE4SS-settings.ini` and the `Mods` folder from `CPPFPS\Binaries\Win64\`. Also delete `UE4SS.log` and any `.cache` files if they're there.
+- **Remove UE4SS:** delete `dwmapi.dll`, `UE4SS.dll`, `UE4SS-settings.ini`, `UE4SS_LICENSE.txt` and the `Mods` folder from `CPPFPS\Binaries\Win64\`. Also delete `UE4SS.log` and any `.cache` files if they're there.
 
 ## Also available on
 - [Nexus Mods](<nexus-link>)
 
 ## Credits
-- [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) by the UE4SS-RE team (MIT License)
+- [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) v3.0.1 by the UE4SS-RE team, included under the MIT License (see `UE4SS_LICENSE.txt`)
 
 ## License
 [MIT](LICENSE)
