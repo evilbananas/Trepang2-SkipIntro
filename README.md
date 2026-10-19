@@ -21,7 +21,7 @@ Trepang2\CPPFPS\Binaries\Win64\
 └── UE4SS_LICENSE.txt
 ```
 
-> If already using UE4SS, extract only the `Mods\SkipPressAnyKey` folder.
+> If already using UE4SS, extract only the `Mods\SkipPressAnyKey` folder into your existing UE4SS `Mods` folder.
 
 ## Uninstall
 - **Remove the mod:** delete the `CPPFPS\Binaries\Win64\Mods\SkipPressAnyKey` folder.
