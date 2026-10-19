@@ -9,7 +9,7 @@ UE4SS v3.0.1 is included in the download, so you don't need to install it separa
 
 ## Installation
 
-Download the latest from [Releases](https://github.com/<your-github-username>/trepang2-skip-intro/releases) and extract it into the top-level `Trepang2` game folder, the one containing `CPPFPS.exe`.
+Download the latest from [Releases](https://github.com/evilbananas/Trepang2-SkipIntro/releases) and extract it into the top-level `Trepang2` game folder, the one containing `CPPFPS.exe`.
 
 You should end up with:
 ```
