@@ -29,6 +29,7 @@ Trepang2\CPPFPS\Binaries\Win64\
 
 ## Also available on
 - [Nexus Mods](https://www.nexusmods.com/trepang2/mods/305)
+- [Steam Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3822802824)
 
 ## Credits
 - [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) v3.0.1 by the UE4SS-RE team, included under the MIT License (see `UE4SS_LICENSE.txt`)
