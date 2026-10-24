@@ -27,10 +27,6 @@ Trepang2\CPPFPS\Binaries\Win64\
 - **Remove the mod:** delete the `CPPFPS\Binaries\Win64\Mods\SkipPressAnyKey` folder.
 - **Remove UE4SS:** delete `dwmapi.dll`, `UE4SS.dll`, `UE4SS-settings.ini`, `UE4SS_LICENSE.txt` and the `Mods` folder from `CPPFPS\Binaries\Win64\`. Also delete `UE4SS.log` and any `.cache` files if they're there.
 
-## Also available on
-- [Nexus Mods](https://www.nexusmods.com/trepang2/mods/305)
-- [Steam Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3822802824)
-
 ## Credits
 - [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) v3.0.1 by the UE4SS-RE team, included under the MIT License (see `UE4SS_LICENSE.txt`)
 
